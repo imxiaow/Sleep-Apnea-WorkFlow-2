@@ -1,0 +1,34 @@
+Files: 
+	• DREAMTEAM_WF2.py
+		○ Runs through workflow on each sample
+		○ Outputs list of genes that appear in samples with a frequency at or above a certain (optionally specified) threshold
+	• make_samples.sh
+		○ Calls gene_list_subset.py with optionally specified subset proportions 
+			§ (defaults to using full gene list)
+		○ Creates a specified number of sample files for each specified subset proportion
+	• gene_list_subset.py
+		○ Creates file with a random sampling from the input file
+		○ Size is specified from the command line as a proportion of the size of the input file
+	• gene_freq.py
+		○ Takes as input the full output gene list CSV from DREAMTEAM_WF2.py
+		○ Creates new output CSV of genes at or above a specified threshold
+	• HUGOSymbol_HGNCID.txt
+		○ Example gene list for sleep apnea
+		○ Contains gene symbols and corresponding HGNC IDs, separated by commas 
+
+Commands:
+	• ./make_samples <input_filename> <replicates> [list_of_subset_proportions]
+		○ This will automatically call gene_list_subset.py on the input file the specified number of times for each specified subset proportion (or 1.0 if no proportions specified)
+		○ If you wish to run gene_list_subset.py manually, use the format:python3 gene_list_subset.py <input_filename> <proportionate_size_of_subset>
+	• python3 DREAMTEAM_WF2.py [frequency_threshold]
+		○ Frequency threshold will default to 0.8 if left unspecified, or if specified threshold is invalid
+	• python3 gene_freq.py <full_gene_list_CSV> <number_of_samples> [frequency_threshold]
+		○ Frequency threshold will default to 0.8 if left unspecified, or if specified threshold is invalid
+		○ Number of samples must be the number of samples used to build the full gene list CSV
+Example: 
+	• Command: ./make_samples HUGOSymbol_HGNCID.txt 3 0.8 0.7 0.6
+		○ Result: creation of samples directory
+	• Command: python3 DREAMTEAM_WF2.py 0.6
+		○ Result: creation of CSV containing IDs and appearance counts of all genes outputted by mod1a or mod1b, and another CSV with IDs and appearance counts of all genes that appeared in ≥ 60% of the 9 samples created above
+	• Command: python3 gene_freq.py full_gene_counts.csv 9 0.9
+		○ Result: creation of CSV containing IDs and appearance counts of all genes that appeared in ≥ 90% of the 9 samples created above

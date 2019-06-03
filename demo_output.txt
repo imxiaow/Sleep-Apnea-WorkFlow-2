@@ -1,0 +1,334 @@
+Sample 1/9...
+
+Mod1A Functional Similarity results: (threshold of 0.7)
+        hit_id hit_symbol    input_id input_symbol     score module
+5   HGNC:24005      HTR3E   HGNC:5298        HTR3B  1.000000  Mod1A
+28  HGNC:24003      HTR3C  HGNC:24004        HTR3D  1.000000  Mod1A
+8   HGNC:24003      HTR3C   HGNC:5298        HTR3B  0.979592  Mod1A
+25  HGNC:24005      HTR3E  HGNC:24004        HTR3D  0.979592  Mod1A
+20  HGNC:30691     KBTBD8  HGNC:11654        TCOF1  0.777778  Mod1A
+4    HGNC:1960     CHRNA7   HGNC:5298        HTR3B  0.730159  Mod1A
+37        None     H7C2G1    HGNC:278       ADRA1B  0.725275  Mod1A
+39  HGNC:33504      SCIMP    HGNC:278       ADRA1B  0.723404  Mod1A
+24   HGNC:1960     CHRNA7  HGNC:24004        HTR3D  0.718750  Mod1A
+
+
+Mod1B Phenotype Similarity results: (threshold of 0.8)
+        hit_id  hit_symbol    input_id input_symbol     score module
+1   HGNC:13879       MYO1H   HGNC:4232         GDNF  1.000000  Mod1B
+22  HGNC:33020  SNORD115-1   HGNC:7675          NDN  1.000000  Mod1B
+9    HGNC:6882    MAPK8IP1   HGNC:6125         IRS1  1.000000  Mod1B
+25   HGNC:6109         IPW   HGNC:7675          NDN  1.000000  Mod1B
+24  HGNC:30089       PWAR1   HGNC:7675          NDN  1.000000  Mod1B
+13   HGNC:9291     PPP1R3A   HGNC:6125         IRS1  1.000000  Mod1B
+16  HGNC:33235       PWRN1   HGNC:7675          NDN  1.000000  Mod1B
+17  HGNC:32781   SNORD116@   HGNC:7675          NDN  1.000000  Mod1B
+19   HGNC:1190       NPAP1   HGNC:7675          NDN  1.000000  Mod1B
+8    HGNC:4456        GPD2   HGNC:6125         IRS1  1.000000  Mod1B
+21   HGNC:7114       MKRN3   HGNC:7675          NDN  0.993711  Mod1B
+20  HGNC:11164       SNRPN   HGNC:7675          NDN  0.960486  Mod1B
+23   HGNC:4868       HERC2   HGNC:7675          NDN  0.946108  Mod1B
+11   HGNC:7762     NEUROD1   HGNC:6125         IRS1  0.933333  Mod1B
+10   HGNC:8618        PAX4   HGNC:6125         IRS1  0.933333  Mod1B
+36    HGNC:738       ASCL1   HGNC:9143       PHOX2B  0.906977  Mod1B
+26   HGNC:6814      MAGEL2   HGNC:7675          NDN  0.877778  Mod1B
+41  HGNC:11773      TGFBR2  HGNC:11772       TGFBR1  0.860317  Mod1B
+
+
+Intersect between Mod1A and Mod1B: 
+set()
+
+Sample 2/9...
+
+Mod1A Functional Similarity results: (threshold of 0.7)
+        hit_id hit_symbol    input_id input_symbol     score module
+30   HGNC:1960     CHRNA7  HGNC:24005        HTR3E  0.730159  Mod1A
+37   HGNC:1960     CHRNA7   HGNC:5298        HTR3B  0.730159  Mod1A
+55        None     H7C2G1    HGNC:278       ADRA1B  0.725275  Mod1A
+57  HGNC:33504      SCIMP    HGNC:278       ADRA1B  0.723404  Mod1A
+17   HGNC:1960     CHRNA7  HGNC:24004        HTR3D  0.718750  Mod1A
+49   HGNC:1960     CHRNA7  HGNC:24003        HTR3C  0.718750  Mod1A
+
+
+Mod1B Phenotype Similarity results: (threshold of 0.8)
+        hit_id hit_symbol    input_id input_symbol     score module
+0   HGNC:13879      MYO1H   HGNC:4232         GDNF  1.000000  Mod1B
+23   HGNC:4456       GPD2   HGNC:6125         IRS1  1.000000  Mod1B
+24   HGNC:6882   MAPK8IP1   HGNC:6125         IRS1  1.000000  Mod1B
+28   HGNC:9291    PPP1R3A   HGNC:6125         IRS1  1.000000  Mod1B
+25   HGNC:8618       PAX4   HGNC:6125         IRS1  0.933333  Mod1B
+26   HGNC:7762    NEUROD1   HGNC:6125         IRS1  0.933333  Mod1B
+22  HGNC:11773     TGFBR2  HGNC:11772       TGFBR1  0.860317  Mod1B
+2   HGNC:20509     ZC3H14   HGNC:4250         GGT1  0.857143  Mod1B
+3   HGNC:30242      TUSC3   HGNC:4250         GGT1  0.857143  Mod1B
+5    HGNC:3378    EPB41L1   HGNC:4250         GGT1  0.857143  Mod1B
+6    HGNC:1406     CACNG2   HGNC:4250         GGT1  0.857143  Mod1B
+7     HGNC:338      AGTR2   HGNC:4250         GGT1  0.857143  Mod1B
+8   HGNC:20751      WDFY3   HGNC:4250         GGT1  0.857143  Mod1B
+9    HGNC:2372      MED23   HGNC:4250         GGT1  0.857143  Mod1B
+10  HGNC:13156      ZNF81   HGNC:4250         GGT1  0.857143  Mod1B
+11    HGNC:685    ARHGEF6   HGNC:4250         GGT1  0.857143  Mod1B
+
+
+Intersect between Mod1A and Mod1B: 
+set()
+
+Sample 3/9...
+
+Mod1A Functional Similarity results: (threshold of 0.7)
+        hit_id hit_symbol    input_id input_symbol     score module
+23   HGNC:5298      HTR3B  HGNC:24005        HTR3E  1.000000  Mod1A
+24  HGNC:24004      HTR3D  HGNC:24005        HTR3E  0.979592  Mod1A
+25  HGNC:24003      HTR3C  HGNC:24005        HTR3E  0.979592  Mod1A
+11  HGNC:30691     KBTBD8  HGNC:11654        TCOF1  0.777778  Mod1A
+21   HGNC:1960     CHRNA7  HGNC:24005        HTR3E  0.730159  Mod1A
+7         None     H7C2G1    HGNC:278       ADRA1B  0.725275  Mod1A
+9   HGNC:33504      SCIMP    HGNC:278       ADRA1B  0.723404  Mod1A
+
+
+Mod1B Phenotype Similarity results: (threshold of 0.8)
+        hit_id   hit_symbol   input_id input_symbol     score module
+16   HGNC:6553  LEP (human)  HGNC:6554         LEPR  0.859060  Mod1B
+5   HGNC:20509       ZC3H14  HGNC:4250         GGT1  0.857143  Mod1B
+6   HGNC:30242        TUSC3  HGNC:4250         GGT1  0.857143  Mod1B
+8    HGNC:3378      EPB41L1  HGNC:4250         GGT1  0.857143  Mod1B
+9    HGNC:1406       CACNG2  HGNC:4250         GGT1  0.857143  Mod1B
+10    HGNC:338        AGTR2  HGNC:4250         GGT1  0.857143  Mod1B
+11  HGNC:20751        WDFY3  HGNC:4250         GGT1  0.857143  Mod1B
+12   HGNC:2372        MED23  HGNC:4250         GGT1  0.857143  Mod1B
+13  HGNC:13156        ZNF81  HGNC:4250         GGT1  0.857143  Mod1B
+14    HGNC:685      ARHGEF6  HGNC:4250         GGT1  0.857143  Mod1B
+
+
+Intersect between Mod1A and Mod1B: 
+set()
+
+Sample 4/9...
+
+Mod1A Functional Similarity results: (threshold of 0.7)
+        hit_id hit_symbol    input_id input_symbol     score module
+28  HGNC:24005      HTR3E   HGNC:5298        HTR3B  1.000000  Mod1A
+22  HGNC:24005      HTR3E  HGNC:24004        HTR3D  0.979592  Mod1A
+37  HGNC:24005      HTR3E  HGNC:24003        HTR3C  0.979592  Mod1A
+10  HGNC:30691     KBTBD8  HGNC:11654        TCOF1  0.777778  Mod1A
+27   HGNC:1960     CHRNA7   HGNC:5298        HTR3B  0.730159  Mod1A
+42        None     H7C2G1    HGNC:278       ADRA1B  0.725275  Mod1A
+44  HGNC:33504      SCIMP    HGNC:278       ADRA1B  0.723404  Mod1A
+21   HGNC:1960     CHRNA7  HGNC:24004        HTR3D  0.718750  Mod1A
+36   HGNC:1960     CHRNA7  HGNC:24003        HTR3C  0.718750  Mod1A
+
+
+Mod1B Phenotype Similarity results: (threshold of 0.8)
+        hit_id  hit_symbol    input_id input_symbol     score module
+28   HGNC:9291     PPP1R3A   HGNC:6125         IRS1  1.000000  Mod1B
+38   HGNC:6109         IPW   HGNC:7675          NDN  1.000000  Mod1B
+37  HGNC:30089       PWAR1   HGNC:7675          NDN  1.000000  Mod1B
+35  HGNC:33020  SNORD115-1   HGNC:7675          NDN  1.000000  Mod1B
+32   HGNC:1190       NPAP1   HGNC:7675          NDN  1.000000  Mod1B
+30  HGNC:32781   SNORD116@   HGNC:7675          NDN  1.000000  Mod1B
+23   HGNC:4456        GPD2   HGNC:6125         IRS1  1.000000  Mod1B
+24   HGNC:6882    MAPK8IP1   HGNC:6125         IRS1  1.000000  Mod1B
+29  HGNC:33235       PWRN1   HGNC:7675          NDN  1.000000  Mod1B
+34   HGNC:7114       MKRN3   HGNC:7675          NDN  0.993711  Mod1B
+33  HGNC:11164       SNRPN   HGNC:7675          NDN  0.960486  Mod1B
+36   HGNC:4868       HERC2   HGNC:7675          NDN  0.946108  Mod1B
+25   HGNC:8618        PAX4   HGNC:6125         IRS1  0.933333  Mod1B
+26   HGNC:7762     NEUROD1   HGNC:6125         IRS1  0.933333  Mod1B
+17   HGNC:9143      PHOX2B    HGNC:738        ASCL1  0.906977  Mod1B
+39   HGNC:6814      MAGEL2   HGNC:7675          NDN  0.877778  Mod1B
+22  HGNC:11773      TGFBR2  HGNC:11772       TGFBR1  0.860317  Mod1B
+2   HGNC:30242       TUSC3   HGNC:4250         GGT1  0.857143  Mod1B
+10    HGNC:685     ARHGEF6   HGNC:4250         GGT1  0.857143  Mod1B
+9   HGNC:13156       ZNF81   HGNC:4250         GGT1  0.857143  Mod1B
+8    HGNC:2372       MED23   HGNC:4250         GGT1  0.857143  Mod1B
+7   HGNC:20751       WDFY3   HGNC:4250         GGT1  0.857143  Mod1B
+6     HGNC:338       AGTR2   HGNC:4250         GGT1  0.857143  Mod1B
+5    HGNC:1406      CACNG2   HGNC:4250         GGT1  0.857143  Mod1B
+4    HGNC:3378     EPB41L1   HGNC:4250         GGT1  0.857143  Mod1B
+1   HGNC:20509      ZC3H14   HGNC:4250         GGT1  0.857143  Mod1B
+
+
+Intersect between Mod1A and Mod1B: 
+set()
+
+Sample 5/9...
+
+Mod1A Functional Similarity results: (threshold of 0.7)
+        hit_id hit_symbol    input_id input_symbol     score module
+29  HGNC:24003      HTR3C  HGNC:24004        HTR3D  1.000000  Mod1A
+9   HGNC:24003      HTR3C  HGNC:24005        HTR3E  0.979592  Mod1A
+16  HGNC:24003      HTR3C   HGNC:5298        HTR3B  0.979592  Mod1A
+37  HGNC:30691     KBTBD8  HGNC:11654        TCOF1  0.777778  Mod1A
+5    HGNC:1960     CHRNA7  HGNC:24005        HTR3E  0.730159  Mod1A
+12   HGNC:1960     CHRNA7   HGNC:5298        HTR3B  0.730159  Mod1A
+25   HGNC:1960     CHRNA7  HGNC:24004        HTR3D  0.718750  Mod1A
+
+
+Mod1B Phenotype Similarity results: (threshold of 0.8)
+        hit_id  hit_symbol    input_id input_symbol     score module
+30  HGNC:13879       MYO1H   HGNC:4232         GDNF  1.000000  Mod1B
+17  HGNC:32781   SNORD116@   HGNC:7675          NDN  1.000000  Mod1B
+19   HGNC:1190       NPAP1   HGNC:7675          NDN  1.000000  Mod1B
+22  HGNC:33020  SNORD115-1   HGNC:7675          NDN  1.000000  Mod1B
+24  HGNC:30089       PWAR1   HGNC:7675          NDN  1.000000  Mod1B
+25   HGNC:6109         IPW   HGNC:7675          NDN  1.000000  Mod1B
+16  HGNC:33235       PWRN1   HGNC:7675          NDN  1.000000  Mod1B
+21   HGNC:7114       MKRN3   HGNC:7675          NDN  0.993711  Mod1B
+20  HGNC:11164       SNRPN   HGNC:7675          NDN  0.960486  Mod1B
+23   HGNC:4868       HERC2   HGNC:7675          NDN  0.946108  Mod1B
+26   HGNC:6814      MAGEL2   HGNC:7675          NDN  0.877778  Mod1B
+29  HGNC:11773      TGFBR2  HGNC:11772       TGFBR1  0.860317  Mod1B
+10   HGNC:6554        LEPR   HGNC:6553          LEP  0.859060  Mod1B
+32  HGNC:20509      ZC3H14   HGNC:4250         GGT1  0.857143  Mod1B
+33  HGNC:30242       TUSC3   HGNC:4250         GGT1  0.857143  Mod1B
+35   HGNC:3378     EPB41L1   HGNC:4250         GGT1  0.857143  Mod1B
+36   HGNC:1406      CACNG2   HGNC:4250         GGT1  0.857143  Mod1B
+37    HGNC:338       AGTR2   HGNC:4250         GGT1  0.857143  Mod1B
+38  HGNC:20751       WDFY3   HGNC:4250         GGT1  0.857143  Mod1B
+39   HGNC:2372       MED23   HGNC:4250         GGT1  0.857143  Mod1B
+40  HGNC:13156       ZNF81   HGNC:4250         GGT1  0.857143  Mod1B
+41    HGNC:685     ARHGEF6   HGNC:4250         GGT1  0.857143  Mod1B
+
+
+Intersect between Mod1A and Mod1B: 
+set()
+
+Sample 6/9...
+
+Mod1A Functional Similarity results: (threshold of 0.7)
+        hit_id hit_symbol    input_id input_symbol     score module
+6   HGNC:24005      HTR3E   HGNC:5298        HTR3B  1.000000  Mod1A
+26  HGNC:24004      HTR3D  HGNC:24003        HTR3C  1.000000  Mod1A
+8   HGNC:24004      HTR3D   HGNC:5298        HTR3B  0.979592  Mod1A
+24  HGNC:24005      HTR3E  HGNC:24003        HTR3C  0.979592  Mod1A
+5    HGNC:1960     CHRNA7   HGNC:5298        HTR3B  0.730159  Mod1A
+23   HGNC:1960     CHRNA7  HGNC:24003        HTR3C  0.718750  Mod1A
+
+
+Mod1B Phenotype Similarity results: (threshold of 0.8)
+        hit_id hit_symbol    input_id input_symbol     score module
+4   HGNC:13879      MYO1H   HGNC:4232         GDNF  1.000000  Mod1B
+11  HGNC:11773     TGFBR2  HGNC:11772       TGFBR1  0.860317  Mod1B
+23   HGNC:6554       LEPR   HGNC:6553          LEP  0.859060  Mod1B
+12  HGNC:20509     ZC3H14   HGNC:4250         GGT1  0.857143  Mod1B
+13  HGNC:30242      TUSC3   HGNC:4250         GGT1  0.857143  Mod1B
+15   HGNC:3378    EPB41L1   HGNC:4250         GGT1  0.857143  Mod1B
+16   HGNC:1406     CACNG2   HGNC:4250         GGT1  0.857143  Mod1B
+17    HGNC:338      AGTR2   HGNC:4250         GGT1  0.857143  Mod1B
+18  HGNC:20751      WDFY3   HGNC:4250         GGT1  0.857143  Mod1B
+19   HGNC:2372      MED23   HGNC:4250         GGT1  0.857143  Mod1B
+20  HGNC:13156      ZNF81   HGNC:4250         GGT1  0.857143  Mod1B
+21    HGNC:685    ARHGEF6   HGNC:4250         GGT1  0.857143  Mod1B
+
+
+Intersect between Mod1A and Mod1B: 
+set()
+
+Sample 7/9...
+
+Mod1A Functional Similarity results: (threshold of 0.7)
+        hit_id hit_symbol    input_id input_symbol     score module
+5    HGNC:5298      HTR3B  HGNC:24005        HTR3E  1.000000  Mod1A
+23  HGNC:24004      HTR3D  HGNC:24003        HTR3C  1.000000  Mod1A
+6   HGNC:24004      HTR3D  HGNC:24005        HTR3E  0.979592  Mod1A
+22   HGNC:5298      HTR3B  HGNC:24003        HTR3C  0.979592  Mod1A
+3    HGNC:1960     CHRNA7  HGNC:24005        HTR3E  0.730159  Mod1A
+11        None     H7C2G1    HGNC:278       ADRA1B  0.725275  Mod1A
+13  HGNC:33504      SCIMP    HGNC:278       ADRA1B  0.723404  Mod1A
+20   HGNC:1960     CHRNA7  HGNC:24003        HTR3C  0.718750  Mod1A
+
+
+Mod1B Phenotype Similarity results: (threshold of 0.8)
+        hit_id hit_symbol    input_id input_symbol     score module
+8    HGNC:9143     PHOX2B    HGNC:738        ASCL1  0.906977  Mod1B
+3   HGNC:11773     TGFBR2  HGNC:11772       TGFBR1  0.860317  Mod1B
+10   HGNC:6554       LEPR   HGNC:6553          LEP  0.859060  Mod1B
+
+
+Intersect between Mod1A and Mod1B: 
+set()
+
+Sample 8/9...
+
+Mod1A Functional Similarity results: (threshold of 0.7)
+        hit_id hit_symbol   input_id input_symbol     score module
+10  HGNC:24005      HTR3E  HGNC:5298        HTR3B  1.000000  Mod1A
+12  HGNC:24004      HTR3D  HGNC:5298        HTR3B  0.979592  Mod1A
+13  HGNC:24003      HTR3C  HGNC:5298        HTR3B  0.979592  Mod1A
+9    HGNC:1960     CHRNA7  HGNC:5298        HTR3B  0.730159  Mod1A
+22        None     H7C2G1   HGNC:278       ADRA1B  0.725275  Mod1A
+24  HGNC:33504      SCIMP   HGNC:278       ADRA1B  0.723404  Mod1A
+
+
+Mod1B Phenotype Similarity results: (threshold of 0.8)
+        hit_id  hit_symbol   input_id input_symbol     score module
+6   HGNC:33235       PWRN1  HGNC:7675          NDN  1.000000  Mod1B
+7   HGNC:32781   SNORD116@  HGNC:7675          NDN  1.000000  Mod1B
+9    HGNC:1190       NPAP1  HGNC:7675          NDN  1.000000  Mod1B
+12  HGNC:33020  SNORD115-1  HGNC:7675          NDN  1.000000  Mod1B
+14  HGNC:30089       PWAR1  HGNC:7675          NDN  1.000000  Mod1B
+15   HGNC:6109         IPW  HGNC:7675          NDN  1.000000  Mod1B
+11   HGNC:7114       MKRN3  HGNC:7675          NDN  0.993711  Mod1B
+10  HGNC:11164       SNRPN  HGNC:7675          NDN  0.960486  Mod1B
+13   HGNC:4868       HERC2  HGNC:7675          NDN  0.946108  Mod1B
+16   HGNC:6814      MAGEL2  HGNC:7675          NDN  0.877778  Mod1B
+20  HGNC:20509      ZC3H14  HGNC:4250         GGT1  0.857143  Mod1B
+21  HGNC:30242       TUSC3  HGNC:4250         GGT1  0.857143  Mod1B
+23   HGNC:3378     EPB41L1  HGNC:4250         GGT1  0.857143  Mod1B
+24   HGNC:1406      CACNG2  HGNC:4250         GGT1  0.857143  Mod1B
+25    HGNC:338       AGTR2  HGNC:4250         GGT1  0.857143  Mod1B
+26  HGNC:20751       WDFY3  HGNC:4250         GGT1  0.857143  Mod1B
+27   HGNC:2372       MED23  HGNC:4250         GGT1  0.857143  Mod1B
+28  HGNC:13156       ZNF81  HGNC:4250         GGT1  0.857143  Mod1B
+29    HGNC:685     ARHGEF6  HGNC:4250         GGT1  0.857143  Mod1B
+
+
+Intersect between Mod1A and Mod1B: 
+set()
+
+Sample 9/9...
+
+Mod1A Functional Similarity results: (threshold of 0.7)
+        hit_id hit_symbol    input_id input_symbol     score module
+23  HGNC:24004      HTR3D   HGNC:5298        HTR3B  0.979592  Mod1A
+24  HGNC:24003      HTR3C   HGNC:5298        HTR3B  0.979592  Mod1A
+45  HGNC:24004      HTR3D  HGNC:24005        HTR3E  0.979592  Mod1A
+46  HGNC:24003      HTR3C  HGNC:24005        HTR3E  0.979592  Mod1A
+20   HGNC:1960     CHRNA7   HGNC:5298        HTR3B  0.730159  Mod1A
+42   HGNC:1960     CHRNA7  HGNC:24005        HTR3E  0.730159  Mod1A
+27        None     H7C2G1    HGNC:278       ADRA1B  0.725275  Mod1A
+29  HGNC:33504      SCIMP    HGNC:278       ADRA1B  0.723404  Mod1A
+
+
+Mod1B Phenotype Similarity results: (threshold of 0.8)
+        hit_id  hit_symbol    input_id input_symbol     score module
+7    HGNC:4456        GPD2   HGNC:6125         IRS1  1.000000  Mod1B
+36  HGNC:33235       PWRN1   HGNC:7675          NDN  1.000000  Mod1B
+12   HGNC:9291     PPP1R3A   HGNC:6125         IRS1  1.000000  Mod1B
+45   HGNC:6109         IPW   HGNC:7675          NDN  1.000000  Mod1B
+44  HGNC:30089       PWAR1   HGNC:7675          NDN  1.000000  Mod1B
+42  HGNC:33020  SNORD115-1   HGNC:7675          NDN  1.000000  Mod1B
+39   HGNC:1190       NPAP1   HGNC:7675          NDN  1.000000  Mod1B
+8    HGNC:6882    MAPK8IP1   HGNC:6125         IRS1  1.000000  Mod1B
+37  HGNC:32781   SNORD116@   HGNC:7675          NDN  1.000000  Mod1B
+41   HGNC:7114       MKRN3   HGNC:7675          NDN  0.993711  Mod1B
+40  HGNC:11164       SNRPN   HGNC:7675          NDN  0.960486  Mod1B
+43   HGNC:4868       HERC2   HGNC:7675          NDN  0.946108  Mod1B
+9    HGNC:8618        PAX4   HGNC:6125         IRS1  0.933333  Mod1B
+10   HGNC:7762     NEUROD1   HGNC:6125         IRS1  0.933333  Mod1B
+46   HGNC:6814      MAGEL2   HGNC:7675          NDN  0.877778  Mod1B
+34  HGNC:11773      TGFBR2  HGNC:11772       TGFBR1  0.860317  Mod1B
+32    HGNC:685     ARHGEF6   HGNC:4250         GGT1  0.857143  Mod1B
+30   HGNC:2372       MED23   HGNC:4250         GGT1  0.857143  Mod1B
+29  HGNC:20751       WDFY3   HGNC:4250         GGT1  0.857143  Mod1B
+28    HGNC:338       AGTR2   HGNC:4250         GGT1  0.857143  Mod1B
+27   HGNC:1406      CACNG2   HGNC:4250         GGT1  0.857143  Mod1B
+26   HGNC:3378     EPB41L1   HGNC:4250         GGT1  0.857143  Mod1B
+24  HGNC:30242       TUSC3   HGNC:4250         GGT1  0.857143  Mod1B
+23  HGNC:20509      ZC3H14   HGNC:4250         GGT1  0.857143  Mod1B
+31  HGNC:13156       ZNF81   HGNC:4250         GGT1  0.857143  Mod1B
+
+
+Intersect between Mod1A and Mod1B: 
+set()
+
